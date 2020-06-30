@@ -38,7 +38,11 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_fence_gate", true },
             {"minecraft:cobblestone_wall", true },
 
-            {"minecraft:stone_button", true },
+            {"minecraft:warped_roots_pot", true},
+            {"minecraft:warped_roots", true},
+            {"minecraft:warped_fungus", true},
+            
+
             {"minecraft:redstone_wire", true },
             {"minecraft:kelp", true },
             {"minecraft:seagrass", true },
@@ -83,6 +87,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:acacia_door", true },
             {"minecraft:dark_oak_door", true },
             {"minecraft:iron_door", true },
+            {"minecraft:warped_door", true},
 
             // trapdoors
             {"minecraft:trapdoor", true },
@@ -92,6 +97,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:acacia_trapdoor", true },
             {"minecraft:dark_oak_trapdoor", true },
             {"minecraft:iron_trapdoor", true },
+            {"minecraft:warped_trapdoor", true},
 
             // signs
             {"minecraft:standing_sign", true},
@@ -100,11 +106,13 @@ namespace Maploader.Renderer.Texture
             {"minecraft:jungle_standing_sign", true},
             {"minecraft:acacia_standing_sign", true},
             {"minecraft:darkoak_standing_sign", true},
+            {"minecraft:warped_standing_sign", true},
             {"minecraft:spruce_wall_sign", true},
             {"minecraft:birch_wall_sign", true},
             {"minecraft:jungle_wall_sign", true},
             {"minecraft:acacia_wall_sign", true},
             {"minecraft:darkoak_wall_sign", true},
+            {"minecraft:warped_wall_sign", true},
             
             // pressure plates
             {"minecraft:birch_pressure_plate", true},
@@ -115,6 +123,8 @@ namespace Maploader.Renderer.Texture
             {"minecraft:stone_pressure_plate", true},
             {"minecraft:spruce_pressure_plate", true},
             {"minecraft:wooden_pressure_plate", true},
+            {"minecraft:warped_pressure_plate", true},
+            
             {"minecraft:heavy_weighted_pressure_plate", true},
             {"minecraft:light_weighted_pressure_plate", true},
 
@@ -132,6 +142,8 @@ namespace Maploader.Renderer.Texture
             {"minecraft:jungle_button", true},
             {"minecraft:acacia_button", true},
             {"minecraft:dark_oak_button", true},
+            {"minecraft:stone_button", true},
+            {"minecraft:warped_button", true},
 
 
             {"minecraft:turtle_egg", true},
@@ -185,6 +197,7 @@ namespace Maploader.Renderer.Texture
 
             // oh look at all this mess...
             // this does... something. What? - tz
+            // Seems to map block names to textures - may can simplify?
             switch (name)
             {
                 case "cobblestone_wall":
@@ -464,7 +477,8 @@ namespace Maploader.Renderer.Texture
                     return GetTexture("iron_block", data).Translate(1, 1, 14, 14);
                 case "stone_pressure_plate":
                     return GetTexture("stone", data).Translate(1, 1, 14, 14);
-                    ;
+                case "warped_pressure_plate":
+                    return GetTexture("warped_planks", 0).Translate(1, 1, 14, 14);
 
                 case "frame":
                     return RenderFrame(data, "sign");
@@ -481,6 +495,8 @@ namespace Maploader.Renderer.Texture
                     return RenderSign(data, "jungle_sign");
                 case "darkoak_standing_sign":
                     return RenderSign(data, "darkoak_sign");
+                case "warped_standing_sign":
+                    return RenderSign(data, "warped_sign");
 
                 case "fence_gate":
                     return RenderFenceGate(data, "planks");
