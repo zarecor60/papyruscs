@@ -17,6 +17,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:tallgrass", true},
             {"minecraft:waterlily", true},
             {"minecraft:torch", true},
+            {"minecraft:soul_torch", true},
             {"minecraft:lever", true},
             {"minecraft:redstone_torch", true},
             {"minecraft:sapling", true},
@@ -538,6 +539,8 @@ namespace Maploader.Renderer.Texture
                     return GetTexture("pumpkin_top", data);
                 case "torch":
                     return GetTexture("torch_on", data);
+                case "soul_torch":
+                    return GetTexture("soul_torch", data);
 
                 case "crafting_table":
                     return GetTexture("crafting_table_top", data);
