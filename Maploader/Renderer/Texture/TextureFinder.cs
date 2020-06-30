@@ -783,6 +783,8 @@ namespace Maploader.Renderer.Texture
                     return GetTexture($"sweet_berry_bush_{data%4}", 0);
                 case "bee_nest":
                     return GetTexture("bee_nest_top", data);
+                case "honey_block":
+                    return GetTexture("honey_top", data);
             }
 
             return null;
