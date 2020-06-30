@@ -75,6 +75,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:leaves", true },
             {"minecraft:leaves2", true },
 
+            // doors
             {"minecraft:wooden_door", true },
             {"minecraft:spruce_door", true },
             {"minecraft:birch_door", true },
@@ -83,6 +84,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_door", true },
             {"minecraft:iron_door", true },
 
+            // trapdoors
             {"minecraft:trapdoor", true },
             {"minecraft:spruce_trapdoor", true },
             {"minecraft:birch_trapdoor", true },
@@ -91,12 +93,20 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_trapdoor", true },
             {"minecraft:iron_trapdoor", true },
 
+            // signs
             {"minecraft:standing_sign", true},
             {"minecraft:spruce_standing_sign", true},
             {"minecraft:birch_standing_sign", true},
             {"minecraft:jungle_standing_sign", true},
             {"minecraft:acacia_standing_sign", true},
             {"minecraft:darkoak_standing_sign", true},
+            {"minecraft:spruce_wall_sign", true},
+            {"minecraft:birch_wall_sign", true},
+            {"minecraft:jungle_wall_sign", true},
+            {"minecraft:acacia_wall_sign", true},
+            {"minecraft:darkoak_wall_sign", true},
+            
+            // pressure plates
             {"minecraft:birch_pressure_plate", true},
             {"minecraft:jungle_pressure_plate", true},
             {"minecraft:acacia_pressure_plate", true},
@@ -107,12 +117,15 @@ namespace Maploader.Renderer.Texture
             {"minecraft:wooden_pressure_plate", true},
             {"minecraft:heavy_weighted_pressure_plate", true},
             {"minecraft:light_weighted_pressure_plate", true},
+
+
             {"minecraft:cactus", true},
             {"minecraft:beetroot", true},
             {"minecraft:nether_wart", true},
             {"minecraft:bell", true},
             {"minecraft:standing_banner", true},
 
+            // buttons
             { "minecraft:wooden_button", true},
             {"minecraft:spruce_button", true},
             {"minecraft:birch_button", true},
@@ -120,11 +133,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:acacia_button", true},
             {"minecraft:dark_oak_button", true},
 
-            {"minecraft:spruce_wall_sign", true},
-            {"minecraft:birch_wall_sign", true},
-            {"minecraft:jungle_wall_sign", true},
-            {"minecraft:acacia_wall_sign", true},
-            {"minecraft:darkoak_wall_sign", true},
+
             {"minecraft:turtle_egg", true},
             {"minecraft:cake", true},
             {"minecraft:scaffolding", true},
@@ -175,6 +184,7 @@ namespace Maploader.Renderer.Texture
 
 
             // oh look at all this mess...
+            // this does... something. What? - tz
             switch (name)
             {
                 case "cobblestone_wall":
