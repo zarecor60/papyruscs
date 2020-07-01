@@ -2753,12 +2753,12 @@
         "textures/blocks/nether_gold_ore"
       ]
    },
-   "nether_shroom_blue" : {
+   "warped_fungus" : {
       "textures" : [
         "textures/blocks/warped_fungus"
       ]
    },
-   "nether_shroom_red" : {
+   "crimson_fungus" : {
       "textures" : [
         "textures/blocks/crimson_fungus"
       ]
@@ -2886,6 +2886,41 @@
   "blackstone_top" : {
       "textures" : [
         "textures/blocks/blackstone_top"
+      ]
+  },
+  "chiseled_nether_bricks" : {
+      "textures" : [
+        "textures/blocks/chiseled_nether_bricks"
+      ]
+  },
+  "chiseled_polished_blackstone" : {
+      "textures" : [
+        "textures/blocks/chiseled_polished_blackstone"
+      ]
+  },
+  "cracked_nether_bricks" : {
+      "textures" : [
+        "textures/blocks/cracked_nether_bricks"
+      ]
+  },
+  "cracked_polished_blackstone_bricks" : {
+      "textures" : [
+        "textures/blocks/cracked_polished_blackstone_bricks"
+      ]
+  },
+  "gilded_blackstone" : {
+      "textures" : [
+        "textures/blocks/gilded_blackstone"
+      ]
+  },
+  "polished_blackstone" : {
+      "textures" : [
+        "textures/blocks/polished_blackstone"
+      ]
+  },
+  "polished_blackstone_bricks" : {
+      "textures" : [
+        "textures/blocks/polished_blackstone_bricks"
       ]
   }
 
