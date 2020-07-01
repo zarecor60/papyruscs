@@ -798,6 +798,13 @@ namespace Maploader.Renderer.Texture
                     return GetTexture("bee_nest_top", data);
                 case "honey_block":
                     return GetTexture("honey_top", data);
+
+                case "crimson_nylium":
+                    return GetTexture("crimson_nylium_top", data);
+                case "warped_nylium":
+                    return GetTexture("warped_nylium_top", data);
+                case "blackstone":
+                    return GetTexture("blackstone_top", data);
             }
 
             return null;
