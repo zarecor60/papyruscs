@@ -2687,6 +2687,196 @@
       "textures" : [
         "textures/blocks/soul_torch"
       ]
-    }
+    },
+    "crimson_door_lower" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_door_lower"
+      ]
+   },
+   "crimson_door_top" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_door_top"
+      ]
+   },
+   "crimson_log_side" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_log_side"
+      ]
+   },
+   "crimson_log_top" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_log_top"
+      ]
+   },
+   "crimson_nylium_side" : {
+      "textures" : [
+        "textures/blocks/crimson_nylium_side"
+      ]
+   },
+   "crimson_nylium_top" : {
+      "textures" : [
+        "textures/blocks/crimson_nylium_top"
+      ]
+   },
+   "crimson_planks" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_planks"
+      ]
+   },
+   "crimson_roots" : {
+      "textures" : [
+        "textures/blocks/crimson_roots"
+      ]
+   },
+   "crimson_roots_pot" : {
+      "textures" : [
+        "textures/blocks/crimson_roots_pot"
+      ]
+   },
+   "crimson_sign" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_planks"
+      ]
+   },
+   "crimson_trapdoor" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/crimson_trapdoor"
+      ]
+   },
+   "crying_obsidian" : {
+      "textures" : [
+        "textures/blocks/crying_obsidian"
+      ]
+   },
+   "nether_gold_ore" : {
+      "textures" : [
+        "textures/blocks/nether_gold_ore"
+      ]
+   },
+   "nether_shroom_blue" : {
+      "textures" : [
+        "textures/blocks/warped_fungus"
+      ]
+   },
+   "nether_shroom_red" : {
+      "textures" : [
+        "textures/blocks/crimson_fungus"
+      ]
+   },
+   "nether_sprouts" : {
+      "textures" : [
+        "textures/blocks/nether_sprouts"
+      ]
+   },
+   "netherite_block" : {
+      "textures" : [
+        "textures/blocks/netherite_block"
+      ]
+   },
+   "soul_fire_0" : {
+     "textures" : [
+       "textures/blocks/soul_fire_0"
+     ]
+   },
+   "soul_fire_1" : {
+      "textures" : [
+        "textures/blocks/soul_fire_1"
+      ]
+   },
+   "warped_wart_block" : {
+     "textures" : [
+       "textures/blocks/warped_wart_block"
+      ]
+   },
+   "stripped_warped_stem_side" : {
+     "textures" : [
+       "textures/blocks/huge_fungus/stripped_warped_stem_side"
+     ]
+  },
+  "stripped_warped_stem_top" : {
+     "textures" : [
+       "textures/blocks/huge_fungus/stripped_warped_stem_top"
+     ]
+   },
+   "twisting_vines_base" : {
+     "textures" : [
+       "textures/blocks/twisting_vines_base"
+      ]
+   },
+   "twisting_vines_bottom" : {
+     "textures" : [
+       "textures/blocks/twisting_vines_bottom"
+      ]
+   },
+   "warped_door_lower" : {
+     "textures" : [
+       "textures/blocks/huge_fungus/warped_door_lower"
+      ]
+   },
+   "warped_door_top" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/warped_door_top"
+      ]
+   },
+  "warped_nylium_side" : {
+      "textures" : [
+        "textures/blocks/warped_nylium_side"
+      ]
+  },
+  "warped_nylium_top" : {
+      "textures" : [
+        "textures/blocks/warped_nylium_top"
+      ]
+  },
+  "warped_planks" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/warped_planks"
+      ]
+  },
+  "warped_roots" : {
+      "textures" : [
+        "textures/blocks/warped_roots"]
+
+  },
+  "warped_roots_pot" : {
+      "textures" : [
+        "textures/blocks/warped_roots_pot"
+      ]
+  },
+  "warped_sign" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/warped_planks"
+      ]
+  },
+  "warped_stem_side" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/warped_stem_side"
+      ]
+  },
+  "warped_stem_top" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/warped_stem_top"
+      ]
+  },
+  "warped_trapdoor" : {
+      "textures" : [
+        "textures/blocks/huge_fungus/warped_trapdoor"
+      ]
+  },
+  "soul_soil" : {
+      "textures" : [
+        "textures/blocks/soul_soil"
+      ]
+  },
+  "basalt_side" : {
+      "textures" : [
+        "textures/blocks/basalt_side"
+      ]
+  },
+  "basalt_top" : {
+      "textures" : [
+        "textures/blocks/basalt_top"
+      ]
+  }
   }
 }
