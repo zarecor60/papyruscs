@@ -772,6 +772,13 @@ namespace Maploader.Renderer.Texture
                 case "stripped_acacia_log":
                     return GetTexture((data & 2) == 0 ? "stripped_acacia_log_top" : "stripped_acacia_log_side", data);
 
+                case "basalt":
+                    return GetTexture((data & 2) == 0 ? "basalt_top" : "basalt_side", data);
+                case "polished_basalt":
+                    return GetTexture((data & 2) == 0 ? "polished_basalt_top" : "polished_basalt_side", data);
+                case "ancient_debris":
+                    return GetTexture((data & 2) == 0 ? "ancient_debris_top" : "ancient_debris_side", data);
+
                 case "enchanting_table":
                     return GetTexture("enchanting_table_top", data);
                 case "log":
