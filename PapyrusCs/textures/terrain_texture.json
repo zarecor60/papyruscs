@@ -2682,6 +2682,11 @@
       "textures": [
         "textures/blocks/honeycomb"
       ]
+    },
+    "soul_torch" : {
+      "textures" : [
+        "textures/blocks/soul_torch"
+      ]
     }
   }
 }
