@@ -2798,7 +2798,7 @@
        "textures/blocks/huge_fungus/stripped_warped_stem_top"
      ]
    },
-   "twisting_vines_base" : {
+   "twisting_vines" : {
      "textures" : [
        "textures/blocks/twisting_vines_base"
       ]
@@ -2808,6 +2808,11 @@
        "textures/blocks/twisting_vines_bottom"
       ]
    },
+   "weeping_vines" : {
+      "textures" : [
+        "textures/blocks/weeping_vines_base"
+      ]
+    },
    "warped_door_lower" : {
      "textures" : [
        "textures/blocks/huge_fungus/warped_door_lower"
