@@ -63,6 +63,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:red_mushroom", true },
             {"minecraft:brown_mushroom", true },
             {"minecraft:fire", true },
+            {"minecraft:soul_fire", true},
             {"minecraft:pumpkin_stem", true },
             {"minecraft:melon_stem", true },
             {"minecraft:carrots", true },
@@ -89,6 +90,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_door", true },
             {"minecraft:iron_door", true },
             {"minecraft:warped_door", true},
+            {"minecraft:crimson_door", true},
 
             // trapdoors
             {"minecraft:trapdoor", true },
@@ -99,6 +101,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_trapdoor", true },
             {"minecraft:iron_trapdoor", true },
             {"minecraft:warped_trapdoor", true},
+            {"minecraft:crimson_trapdoor", true},
 
             // signs
             {"minecraft:standing_sign", true},
@@ -114,6 +117,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:acacia_wall_sign", true},
             {"minecraft:darkoak_wall_sign", true},
             {"minecraft:warped_wall_sign", true},
+            {"minecraft:crimson_wall_sign", true},
             
             // pressure plates
             {"minecraft:birch_pressure_plate", true},
@@ -125,6 +129,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:spruce_pressure_plate", true},
             {"minecraft:wooden_pressure_plate", true},
             {"minecraft:warped_pressure_plate", true},
+            {"minecraft:crimson_pressure_plate", true},
             
             {"minecraft:heavy_weighted_pressure_plate", true},
             {"minecraft:light_weighted_pressure_plate", true},
@@ -145,6 +150,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_button", true},
             {"minecraft:stone_button", true},
             {"minecraft:warped_button", true},
+            {"minecraft:crimson_button", true},
 
 
             {"minecraft:turtle_egg", true},
@@ -197,8 +203,7 @@ namespace Maploader.Renderer.Texture
 
 
             // oh look at all this mess...
-            // this does... something. What? - tz
-            // Seems to map block names to textures - may can simplify?
+            // this is meant to return placeholder textures. Don't need block here unless it needs one.
             switch (name)
             {
                 case "cobblestone_wall":
@@ -539,8 +544,6 @@ namespace Maploader.Renderer.Texture
                     return GetTexture("pumpkin_top", data);
                 case "torch":
                     return GetTexture("torch_on", data);
-                case "soul_torch":
-                    return GetTexture("soul_torch", data);
 
                 case "crafting_table":
                     return GetTexture("crafting_table_top", data);
