@@ -2877,6 +2877,17 @@
       "textures" : [
         "textures/blocks/basalt_top"
       ]
+  },
+  "blackstone" : {
+      "textures" : [
+        "textures/blocks/blackstone"
+      ]
+  },
+  "blackstone_top" : {
+      "textures" : [
+        "textures/blocks/blackstone_top"
+      ]
   }
+
   }
 }
