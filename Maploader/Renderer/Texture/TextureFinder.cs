@@ -305,6 +305,18 @@ namespace Maploader.Renderer.Texture
 
                 case "purpur_stairs":
                     return GetTexture("purpur_block_top", 0);
+                case "polished_blackstone_brick_stairs":
+                    return GetTexture("polished_blackstone_brick", 0);
+                case "polished_blackstone_brick_slab":
+                    return GetTexture("polished_blackstone_brick", 0);
+                case "polished_blackstone_stairs":
+                    return GetTexture("polished_blackstone", 0);
+                case "polished_blackstone_slab":
+                    return GetTexture("polished_blackstone", 0);
+                case "blackstone_stairs":
+                    return GetTexture("blackstone", 0);
+                case "blackstone_slab":
+                    return GetTexture("blackstone", 0);
 
                 case "cauldron":
                     return GetTexture("cauldron_inner", data)
