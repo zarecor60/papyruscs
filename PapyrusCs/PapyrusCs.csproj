@@ -2220,5 +2220,9 @@
     <None Update="textures\terrain_texture.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="textures\blocks\soul_torch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    
   </ItemGroup>
 </Project>
