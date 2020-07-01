@@ -80,6 +80,8 @@ namespace Maploader.Renderer.Texture
             {"minecraft:bamboo", true },
             {"minecraft:leaves", true },
             {"minecraft:leaves2", true },
+            {"minecraft:twisting_vines", true },
+            {"minecraft:weeping_vines", true },
 
             // doors
             {"minecraft:wooden_door", true },
@@ -774,6 +776,15 @@ namespace Maploader.Renderer.Texture
                 case "stripped_acacia_log":
                     return GetTexture((data & 2) == 0 ? "stripped_acacia_log_top" : "stripped_acacia_log_side", data);
 
+                /* WOOD-LIKE */
+                case "warped_stem":
+                    return GetTexture((data & 2) == 0 ? "warped_stem_top" : "warped_stem_side", data);
+                case "crimson_stem":
+                    return GetTexture((data & 2) == 0 ? "crimson_stem_top" : "crimson_stem_side", data);
+                case "stripped_warped_stem":
+                    return GetTexture((data & 2) == 0 ? "stripped_warped_stem_top" : "stripped_warped_stem_side", data);
+                case "stripped_crimson_stem":
+                    return GetTexture((data & 2) == 0 ? "stripped_crimson_stem_top" : "stripped_crimson_stem_side", data);
                 case "basalt":
                     return GetTexture((data & 2) == 0 ? "basalt_top" : "basalt_side", data);
                 case "polished_basalt":
