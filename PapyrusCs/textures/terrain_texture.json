@@ -2775,12 +2775,12 @@
    },
    "soul_fire_0" : {
      "textures" : [
-       "textures/blocks/soul_fire_0"
+       "textures/blocks/soul_fire_0_placeholder"
      ]
    },
    "soul_fire_1" : {
       "textures" : [
-        "textures/blocks/soul_fire_1"
+        "textures/blocks/soul_fire_0_placeholder"
       ]
    },
    "warped_wart_block" : {
