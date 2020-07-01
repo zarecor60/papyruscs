@@ -60,7 +60,7 @@
     <None Update="map.thtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="textures\blocks">
+    <None Update="textures\blocks\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="textures\terrain_texture.json">
