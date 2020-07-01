@@ -2927,6 +2927,11 @@
       "textures" : [
         "textures/blocks/polished_blackstone_bricks"
       ]
+  },
+  "shroomlight" : {
+      "textures" : [
+        "textures/blocks/shroomlight"
+      ]
   }
 
   }
