@@ -217,6 +217,8 @@ namespace Maploader.Renderer.Texture
                     return "textures/blocks/lava_placeholder";
                 case "fire":
                     return "textures/blocks/fire_0_placeholder";
+                case"soul_fire":
+                    return "textures/blocks/soul_fire_0_placeholder";
                 case "packed_ice":
                     return GetTexture("ice_packed", data);
                 case "lectern":
