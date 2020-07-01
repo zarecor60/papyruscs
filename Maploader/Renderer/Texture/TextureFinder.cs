@@ -780,7 +780,7 @@ namespace Maploader.Renderer.Texture
                 case "warped_stem":
                     return GetTexture((data & 2) == 0 ? "warped_stem_top" : "warped_stem_side", data);
                 case "crimson_stem":
-                    return GetTexture((data & 2) == 0 ? "crimson_stem_top" : "crimson_stem_side", data);
+                    return GetTexture((data & 2) == 0 ? "crimson_log_top" : "crimson_log_side", data);
                 case "stripped_warped_stem":
                     return GetTexture((data & 2) == 0 ? "stripped_warped_stem_top" : "stripped_warped_stem_side", data);
                 case "stripped_crimson_stem":
