@@ -161,6 +161,15 @@ namespace Maploader.Renderer.Texture
             {"minecraft:mob_spawner", true},
             {"minecraft:slime", true},
             {"minecraft:reeds", true},
+
+            {"minecraft:crimson_roots", true},
+            {"minecraft:crimson_fungus", true},
+            {"minecraft:crimson_roots_pot", true},
+
+            {"minecraft:warped_roots", true},
+            {"minecraft:warped_roots_pot", true}
+            {"minecraft:warped_fungus", true}
+
         };
 
         private readonly Dictionary<string, Texture> texturesJson;
