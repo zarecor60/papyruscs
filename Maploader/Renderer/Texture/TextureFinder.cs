@@ -39,11 +39,6 @@ namespace Maploader.Renderer.Texture
             {"minecraft:dark_oak_fence_gate", true },
             {"minecraft:cobblestone_wall", true },
 
-            {"minecraft:warped_roots_pot", true},
-            {"minecraft:warped_roots", true},
-            {"minecraft:warped_fungus", true},
-            
-
             {"minecraft:redstone_wire", true },
             {"minecraft:kelp", true },
             {"minecraft:seagrass", true },
