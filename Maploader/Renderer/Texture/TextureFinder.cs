@@ -163,7 +163,8 @@ namespace Maploader.Renderer.Texture
 
             {"minecraft:warped_roots", true},
             {"minecraft:warped_roots_pot", true},
-            {"minecraft:warped_fungus", true}
+            {"minecraft:warped_fungus", true},
+            {"minecraft:nether_sprouts", true}
 
         };
 

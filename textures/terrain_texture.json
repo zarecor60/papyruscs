@@ -2086,9 +2086,7 @@
       "seagrass_tall_top_b" : {
          "textures" : "textures/blocks/seagrass_doubletall_top_b"
       },
-      "shroomlight" : {
-         "textures" : "textures/blocks/shroomlight"
-      },
+
       "shulker_box_top" : {
          "textures" : [
             "textures/blocks/shulker_top_white",
