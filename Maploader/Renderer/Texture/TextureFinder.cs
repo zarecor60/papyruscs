@@ -12,6 +12,8 @@ namespace Maploader.Renderer.Texture
         /// <summary>
         /// Returns if a texture is transparent
         /// </summary>
+        /// 
+        /* Put this in a JSON */
         public Dictionary<string, bool> TransparentBlocks { get; } = new Dictionary<string, bool>()
         {
             {"minecraft:tallgrass", true},
@@ -38,6 +40,7 @@ namespace Maploader.Renderer.Texture
             {"minecraft:jungle_fence_gate", true },
             {"minecraft:dark_oak_fence_gate", true },
             {"minecraft:cobblestone_wall", true },
+            {"minecraft:blackstone_wall", true },
 
             {"minecraft:redstone_wire", true },
             {"minecraft:kelp", true },
@@ -198,6 +201,7 @@ namespace Maploader.Renderer.Texture
         }
 
 
+        /* Put this in a JSON */
 
         private TextureStack GetSubstitution(string name, long data, int x, int z, int y)
         {
@@ -214,7 +218,9 @@ namespace Maploader.Renderer.Texture
             switch (name)
             {
                 case "cobblestone_wall":
-                    return GetTexture("cobblestone_wall", data).Translate(5, 5, 6, 6);
+                    return GetTexture("cobblestone", data).Translate(5, 5, 6, 6);
+                case "blackstone_wall":
+                    return GetTexture("blackstone", data).Translate(5, 5, 6, 6);
 
                 case "bubble_column":
                     return "textures/blocks/water_placeholder";
